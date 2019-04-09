@@ -1,0 +1,35 @@
+.form-inline{
+    display: block;
+}
+.App{
+    padding: 5%;
+    font-size: 16px;
+    text-align: center;
+}
+
+.party-img{
+    display: block;
+    width: 250px;
+    height: 250px;
+    box-shadow: 0px 3px 6px #888;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+.fade{
+    animation-name: fade-in;
+    animation-duration: 5s;
+}
+
+.age-stats{
+    opacity: 100;
+}
+
+@keyframes fade-in{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 100;
+    }
+}
